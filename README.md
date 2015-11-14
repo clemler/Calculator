@@ -1,2 +1,2 @@
 # Calculator
-Sample iOS application from the Stanford iOS programming class
+Sample iOS application based on the iTunesU programming class
