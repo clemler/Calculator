@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1128457A1BF70A5D002141A7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 112845791BF70A5D002141A7 /* README.md */; };
 		118DB3B01BF3156E002CE1EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DB3AF1BF3156E002CE1EE /* AppDelegate.swift */; };
 		118DB3B21BF3156E002CE1EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DB3B11BF3156E002CE1EE /* ViewController.swift */; };
 		118DB3B51BF3156E002CE1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118DB3B31BF3156E002CE1EE /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112845791BF70A5D002141A7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		118DB3AC1BF3156E002CE1EE /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		118DB3AF1BF3156E002CE1EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		118DB3B11BF3156E002CE1EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		118DB3A31BF3156E002CE1EE = {
 			isa = PBXGroup;
 			children = (
+				112845791BF70A5D002141A7 /* README.md */,
 				118DB3AE1BF3156E002CE1EE /* Calculator */,
 				118DB3C31BF3156E002CE1EE /* CalculatorTests */,
 				118DB3CE1BF3156E002CE1EE /* CalculatorUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1128457A1BF70A5D002141A7 /* README.md in Sources */,
 				118DB3B21BF3156E002CE1EE /* ViewController.swift in Sources */,
 				118DB3B01BF3156E002CE1EE /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				118DB3D61BF3156E002CE1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		118DB3D71BF3156E002CE1EE /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				118DB3D91BF3156E002CE1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		118DB3DA1BF3156E002CE1EE /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				118DB3DC1BF3156E002CE1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
