@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVL-Te-2eE">
-                                <rect key="frame" x="20" y="20" width="560" height="39"/>
+                                <rect key="frame" x="138" y="20" width="442" height="39"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -83,7 +83,7 @@
                                 <rect key="frame" x="470" y="67" width="102" height="125"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="×"/>
+                                <state key="normal" title="π"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JHw-7K-2gc"/>
                                 </connections>
@@ -92,7 +92,7 @@
                                 <rect key="frame" x="470" y="200" width="102" height="126"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="÷"/>
+                                <state key="normal" title="sin"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GrE-pg-Mna"/>
                                 </connections>
@@ -101,7 +101,7 @@
                                 <rect key="frame" x="470" y="334" width="102" height="125"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="+"/>
+                                <state key="normal" title="cos"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EAb-be-fS0"/>
                                 </connections>
@@ -182,6 +182,10 @@
                                 <rect key="frame" x="28" y="467" width="102" height="125"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AS6-Jo-547"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ag3-hP-7mD">
                                 <rect key="frame" x="359" y="467" width="103" height="125"/>
@@ -199,6 +203,15 @@
                                 <state key="normal" title="√"/>
                                 <connections>
                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EQZ-Xb-MZc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gr0-Pl-aQR">
+                                <rect key="frame" x="20" y="20" width="30" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="C"/>
+                                <connections>
+                                    <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gP1-2i-QV2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -253,7 +266,7 @@
                             <constraint firstItem="lBN-q5-bRD" firstAttribute="height" secondItem="Now-RI-m9r" secondAttribute="height" id="Tc1-w5-0Xk"/>
                             <constraint firstItem="CVL-Te-2eE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="UAx-gE-bl6"/>
                             <constraint firstItem="LsR-AN-2V7" firstAttribute="height" secondItem="Now-RI-m9r" secondAttribute="height" id="UJ4-ZS-cTc"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="CVL-Te-2eE" secondAttribute="leading" id="Ueu-aI-Dpa"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="CVL-Te-2eE" secondAttribute="leading" constant="-118" id="Ueu-aI-Dpa"/>
                             <constraint firstItem="VgC-sL-c9J" firstAttribute="leading" secondItem="9r7-MD-onm" secondAttribute="trailing" constant="8" id="Utg-g5-hsA"/>
                             <constraint firstItem="lBN-q5-bRD" firstAttribute="leading" secondItem="LsR-AN-2V7" secondAttribute="trailing" constant="8" id="XPd-Hi-NPL"/>
                             <constraint firstItem="Now-RI-m9r" firstAttribute="top" secondItem="CVL-Te-2eE" secondAttribute="bottom" constant="8" id="YPw-4b-UZ8"/>
